@@ -51,6 +51,7 @@ fake_ci_webhook:
 ## =====================
 
 test:
+	@echo "branch ${GIT_BRANCH}"
 	npm run test
 
 ## =====================
